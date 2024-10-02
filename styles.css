@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fafae8
+}
+
+a {
+    text-decoration: none;
+    color: #ffc14c;
+}
+
+.main-heading{
+    text-align: center;
+    margin: 80px auto;
+    color: #5a3d30;
+    font-size: 70px;
+}
+
+.sub-heading{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 35px;
+}
+
+.dish{
+    width: 1330px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first,
+.second,
+.third {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 40px;
+    width:400px;
+    height: 600px;
+}
+
+img {
+    border-radius: 20px;
+}
