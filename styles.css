@@ -9,38 +9,48 @@ a {
     color: #ffc14c;
 }
 
-.main-heading{
+.main-heading {
     text-align: center;
-    margin: 80px auto;
+    margin: 0px;
     color: #5a3d30;
     font-size: 70px;
+    height: 600px;
+    padding: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.sub-heading{
+.sub-heading {
     text-align: center;
     margin-bottom: 60px;
     font-size: 35px;
 }
 
-.dish{
+.dish {
     width: 1330px;
-    height: 600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.first,
-.second,
-.third {
+.dish div {
     display: inline-block;
     box-sizing: border-box;
     text-align: center;
     font-size: 40px;
-    width:400px;
-    height: 600px;
+    width: 400px;
+    height: 550px;
+    margin-bottom: 10px;
+    outline: 1px solid darkorange;
+    border-radius: 20px;
 }
 
 img {
     border-radius: 20px;
+}
+
+.ten {
+    margin: 0 auto;
 }
